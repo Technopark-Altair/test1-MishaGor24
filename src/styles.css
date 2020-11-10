@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+div {
+position: relative;
+left: 480px;
+margin: 50px;
+}
+body {
+  background-color:bisque;
+}
+h3 {
+  color: cadetblue;
+}
+p {
+  color: darkslategray;
+}
+input:hover{
+color: darkviolet;
+}
+input:focus{
+  color: darkviolet;
+}
+input:hover{
+  background-color: skyblue;
+}
+
+#button:focus {
+background-color: olive;
+}
+#button:hover{
+  background-color: olive;
+  }
+@media screen and (max-width: 870px){
+  div{ 
+   position: relative;
+   left:200px;
+   margin: 50px;
+   
+ }
+ }
+ @media screen and (max-width: 660px){
+  div{ 
+   position: relative;
+   left:50px;
+   margin: 50px;
+   
+ }
+ }
+ 
+@media screen and (max-width: 500px){
+ div{ 
+  position: relative;
+  left:0px;
+  margin: 35px;
+  
+}
+}
+
+@media screen and (max-width: 300px){
+  div{ 
+    position: relative;
+    margin: 20px;
+ }
+ }
+ 
+ 
